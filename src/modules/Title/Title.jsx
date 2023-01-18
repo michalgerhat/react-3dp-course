@@ -6,7 +6,12 @@ import './_title.css';
 export default function Title() {
   return (
     <div className="title">
-      <div className="title-image" />
+      <div className="title-background-overlay" />
+      <div className="title-background">
+        <video autoPlay="autoplay" muted playsInline loop>
+          <source src="/video/3dp_timelapse.webm" type="video/webm" /> 
+        </video>
+      </div>
       <div className="title-content">
         <div className="title-logo">
           <Logo />
@@ -17,8 +22,8 @@ export default function Title() {
           <br />
           Kurz si projdete vlastním tempem, ve vámi zvoleném pořadí a v libovolném čase.
         </h2> 
-      </div>
       <TitleArrowDown />
+      </div>
     </div>
   );
 }
