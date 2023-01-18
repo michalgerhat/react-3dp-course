@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Title from './modules/Title/Title';
 import ChapterList from './modules/Chapters/ChapterList';
+import Footer from './modules/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           {title: "Octoprint", image: "/img/chapter17.webp"}
         ]}
       />
+      <Footer />
     </div>
   );
 }
