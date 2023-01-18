@@ -1,3 +1,6 @@
-.footer {
-  text-align: center;
+.external-source-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 14px;
+  width: 14px;
 }

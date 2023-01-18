@@ -27,6 +27,19 @@ h2 {
   }
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: darkslateblue;
+}
+
+a:visited {
+  color: grey;
+}
+
 @keyframes fade-in-right {
   from {
     opacity: 0;
