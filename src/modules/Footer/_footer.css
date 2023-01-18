@@ -1,3 +1,7 @@
+.footer {
+  padding: 0 12px;
+}
+
 .external-source-icon {
   display: inline-block;
   fill: currentColor;
