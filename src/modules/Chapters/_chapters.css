@@ -6,12 +6,18 @@
   border: 1px solid lightgray;
   border-radius: 8px;
   opacity: 0;
+  transition: opacity 0.1s linear;
   animation: fade-in-right ease 0.8s forwards;
   animation-delay: 0.4s;
 }
 
 .chapter-tile-container:hover {
   cursor: pointer;
+}
+
+.chapter-tile-container:hover .chapter-tile-background {
+  opacity: 1;
+  transition: opacity 0.1s linear;
 }
 
 .chapter-tile {
