@@ -5,7 +5,7 @@ html {
 
 .App {
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h1 {
@@ -40,7 +40,7 @@ a:visited {
   color: grey;
 }
 
-@keyframes fade-in-right {
+@keyframes fade-in {
   from {
     opacity: 0;
     transform: translateY(30px);
@@ -52,6 +52,6 @@ a:visited {
 }
 
 .animate-entry {
-  animation: fade-in-right ease 0.8s forwards;
+  animation: fade-in ease 0.8s forwards;
   animation-delay: 1s;
 }

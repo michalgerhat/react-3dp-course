@@ -7,7 +7,7 @@
   border-radius: 8px;
   opacity: 0;
   transition: opacity 0.1s linear;
-  animation: fade-in-right ease 0.8s forwards;
+  animation: fade-in ease 0.8s forwards;
   animation-delay: 0.4s;
 }
 
@@ -18,6 +18,27 @@
 .chapter-tile-container:hover .chapter-tile-background {
   opacity: 1;
   transition: opacity 0.1s linear;
+}
+
+.chapter-tile-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+  border-radius: 8px;
+}
+
+.chapter-tile-background-disabled {
+  filter: grayscale(100%);
+  opacity: 0.1;
+}
+
+.chapter-tile-container:hover .chapter-tile-background-disabled {
+  opacity: 0.1;
 }
 
 .chapter-tile {
@@ -39,19 +60,6 @@
   font-weight: 400;
   margin: 0;
 }
-
-.chapter-tile-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.5;
-  border-radius: 8px;
-}
-
 .chapter-list {
   min-height: 100vh;
   display: flex;

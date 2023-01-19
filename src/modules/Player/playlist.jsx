@@ -1,0 +1,98 @@
+export const playlist = [
+  {
+    id: 1,
+    title: "Technologie 3D tisku",
+    image: "/img/chapter1.jpg",
+    video: null,
+  },
+  {
+    id: 2,
+    title: "Výběr 3D tiskárny",
+    image: "/img/chapter2.jpg",
+    video: null,
+  },
+  {
+    id: 3,
+    title: "Výběr filamentu",
+    image: "/img/chapter3.jpeg",
+    video: null,
+  },
+  {
+    id: 4,
+    title: "Příslušenství pro 3D tisk",
+    image: "/img/chapter4.jpg",
+    video: null,
+  },
+  {
+    id: 5,
+    title: "Software pro 3D modelování",
+    image: "/img/chapter5.png",
+    video: null,
+  },
+  {
+    id: 6,
+    title: "Fusion 360\nskečování",
+    image: "/img/chapter6.webp",
+    video: "/video/f360_sketch.mov",
+  },
+  {
+    id: 7,
+    title: "Fusion 360\núpravy modelu",
+    image: "/img/chapter7.jpg",
+    video: "/video/f360_fillet_chamfer.mov",
+  },
+  {
+    id: 8,
+    title: "Fusion 360\nspojování modelů",
+    image: "/img/chapter9.png",
+    video: null,
+  },
+  {
+    id: 9,
+    title: "Fusion 360\nexport STL",
+    image: "/img/chapter10.jpg",
+    video: null,
+  },
+  {
+    id: 10,
+    title: "Slicer\nnastavení tisku STL",
+    image: "/img/chapter11.png",
+    video: null,
+  },
+  {
+    id: 11,
+    title: "Slicer\núpravy modelu",
+    image: "/img/chapter12.jpg",
+    video: null,
+  },
+  {
+    id: 12,
+    title: "Slicer\npokročilé funkce",
+    image: "/img/chapter13.webp",
+    video: null,
+  },
+  {
+    id: 13,
+    title: "Post-procesování výtisku",
+    image: "/img/chapter14.webp",
+    video: null,
+  },
+  {
+    id: 14,
+    title: "Online repozitáře\n3D modelů",
+    image: "/img/chapter15.webp",
+    video: null,
+  },
+  {
+    id: 15,
+    title: "Upgrade 3D tiskáren",
+    image: "/img/chapter16.webp",
+    video: null,
+  },
+  {
+    id: 16,
+    title: "Octoprint",
+    image: "/img/chapter17.webp",
+    video: null,
+  },
+];
